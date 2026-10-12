@@ -15,3 +15,15 @@
 **Q7.** Git printed the branch, a short commit hash, my message, and a summary that said: 6 files changed. It also listed each created file.
 
 **Q8.** It is the short (abbreviated) commit hash, e.g. 7cdee52. It identifies that exact commit uniquely, so I can refer to it in commands like git show or git checkout.
+
+**Q9.** The loop is: edit files, check with git status, stage with git add, then commit with git commit (and check the result with git log).
+
+**Q10.** README.md is a convention. GitHub looks for it in the repo root and shows it as the front page, so it works as the project's introduction for visitors.
+
+**Q11.** It logged me in to GitHub through the browser and stored an access token. Because I answered yes to authenticating Git, Git now uses that saved token when I push over HTTPS, so no password is needed.
+
+**Q12.** The front page shows the README.md contents, rendered as formatted text. GitHub always displays the README at the repo root as the landing page.
+
+**Q13.** No. Pushing only copies my commits to GitHub. My local history is the same, except Git now also tracks where origin/main is.
+
+**Q14.** A private repo exists on GitHub, but only I and people I invite can see it. A repo that doesn't exist online has no off-site backup and nothing to share, and nobody can be invited to it.
